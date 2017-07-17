@@ -1,8 +1,10 @@
 # FirstPay-WHMCS
-퍼스트페이의 WHMCS 모듈입니다.
+퍼스트페이의 WHMCS 모듈입니다. BoxBilling으로 이전해서 더 이상 필요없어서 공개합니다.
+현재 WHMCS 라이선스가 없어서 테스트는 해 보지 못하였지만 안 될 경우 수정해서 사용하세요.
 
 # 설치방법
-/billing/modules/gateways에  Repo    .
+/billing/modules/gateways에 모두 넣으면 됩니다.
 
 # 라이센스
- GPL  
+수정되지 않은 상태로 사용되는 경우는 MIT를 적용합니다.
+모듈을 단 1글자라도 수정할 경우 최신 버전의 GPL을 적용합니다. 그리고 서버 코드이더라도 소스 공개의 의무가 있습니다.
