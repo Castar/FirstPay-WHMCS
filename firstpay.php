@@ -178,7 +178,7 @@ $_SESSION['returnUrl'] = $returnUrl;
 $_SESSION['InvoiceNOFDK'] = $params['invoiceid'];
 $first_paydata['MxID'] = $accountId;
 $first_paydata['MxIssueNO'] = "whmcs_".$params['invoiceid'];
-$_SESSION['MxIssueNO'] = $first_paydata['MxIssueNO'];
+setcookie("MxIssueNO",$first_paydata['MxIssueNO'],time()+3600);
 $_SESSION['MxIssueDate'] = $first_paydata['MxIssueDate'];
 $first_paydata['MxIssueDate'] = date("YmdHis");
 $first_paydata['CcProdDesc'] = $description;
